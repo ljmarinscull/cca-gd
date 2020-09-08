@@ -63,6 +63,7 @@
         <br />
         <br />
       </div>
+      <Team />
     </section>
   </Layout>
 </template>
@@ -72,6 +73,7 @@
 export default {
   components: {
     Banner: () => import("~/components/Banner.vue"),
+    Team: () => import("~/components/Team.vue"),
   },
   metaInfo: {
     title: "Team",
@@ -398,7 +400,6 @@ export default {
 /**************/
 
 .who-we-are-container {
-  height: 100vh;
   padding: 32px;
   color: #5B0D49;
 }

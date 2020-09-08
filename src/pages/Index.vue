@@ -1,42 +1,40 @@
 <template>
   <Layout>
-    <header>
-      <div class="section-slider">
-        <div
-          class="uk-position-relative uk-visible-toggle uk-light"
-          tabindex="-1"
-          uk-slideshow="autoplay: true;"
-        >
-          <ul class="uk-slideshow-items" uk-height-viewport>
-            <li>
-              <g-image src="~/assets/images/slider-1.png" alt uk-cover />
-              <div
-                class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom"
-              >
-                <h2>Come check out the game we made at our summer camp</h2>
-              </div>
-            </li>
-            <li>
-              <g-image src="~/assets/images/slider-2.png" alt uk-cover />
-            </li>
-            <li>
-              <g-image src="~/assets/images/slider-3.png" alt uk-cover />
-            </li>
-          </ul>
+    <header class="section-slider">
+      <div
+        class="uk-position-relative uk-visible-toggle uk-light"
+        tabindex="-1"
+        uk-slideshow="autoplay: true;"
+      >
+        <ul class="uk-slideshow-items" uk-height-viewport>
+          <li>
+            <g-image src="~/assets/images/slider-1.png" alt uk-cover />
+            <div
+              class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom"
+            >
+              <h2>Come check out the game we made at our summer camp</h2>
+            </div>
+          </li>
+          <li>
+            <g-image src="~/assets/images/slider-2.png" alt uk-cover />
+          </li>
+          <li>
+            <g-image src="~/assets/images/slider-3.png" alt uk-cover />
+          </li>
+        </ul>
 
-          <g-link
-            class="uk-position-center-left uk-position-small uk-hidden-hover"
-            href="#"
-            uk-slidenav-previous
-            uk-slideshow-item="previous"
-          />
-          <g-link
-            class="uk-position-center-right uk-position-small uk-hidden-hover"
-            href="#"
-            uk-slidenav-next
-            uk-slideshow-item="next"
-          />
-        </div>
+        <g-link
+          class="uk-position-center-left uk-position-small uk-hidden-hover"
+          href="#"
+          uk-slidenav-previous
+          uk-slideshow-item="previous"
+        />
+        <g-link
+          class="uk-position-center-right uk-position-small uk-hidden-hover"
+          href="#"
+          uk-slidenav-next
+          uk-slideshow-item="next"
+        />
       </div>
     </header>
 
@@ -117,86 +115,13 @@
       <hr class="uk-divider-icon" />
     </div>
 
-    <section>
-      <div class="section-team">
-        <h2>Meet the team</h2>
-        <div class="team-members-container">
-          <div class="team-member">
-            <g-image
-              src="~/assets/images/clifford.jpg"
-              alt="Managing Director"
-              title="Managing Director"
-            />
-            <h4 class="uk-text-large team-member-title">Clifford Browner</h4>
-            <h6 class="team-member-subtitle">Managing Director</h6>
-          </div>
+    <h2 class="section-team-h2 ">Meet the team</h2>
+    <Team />
 
-          <div class="team-member">
-            <g-image
-              src="~/assets/images/carlos-gittens.jpg"
-              alt="Managing Director"
-              title="Managing Director"
-            />
-            <h4 class="uk-text-large team-member-title">Carlos Gittens</h4>
-            <h6 class="team-member-subtitle">Academic Director</h6>
-          </div>
-
-          <div class="team-member">
-            <g-image
-              src="~/assets/images/gillian_stephen.jpg"
-              alt="Managing Director"
-              title="Managing Director"
-            />
-            <h4 class="uk-text-large team-member-title">Gillian Stephen</h4>
-            <h6 class="team-member-subtitle">Operations Manager</h6>
-          </div>
-
-          <div class="team-member">
-            <g-image
-              src="~/assets/images/whitney-griffith.jpg"
-              alt="Managing Director"
-              title="Managing Director"
-            />
-            <h4 class="uk-text-large team-member-title">Whitney Griffith</h4>
-            <h6 class="team-member-subtitle">International Business Relation</h6>
-          </div>
-
-          <div class="team-member">
-            <g-image
-              src="~/assets/images/dr-mathew.jpg"
-              alt="Managing Director"
-              title="Managing Director"
-            />
-            <h4 class="uk-text-large team-member-title">George Matthew</h4>
-            <h6 class="team-member-subtitle">Academic Director</h6>
-          </div>
-
-          <div class="team-member">
-            <g-image
-              src="~/assets/images/donna-mcIntosh.jpeg"
-              alt="Managing Director"
-              title="Managing Director"
-            />
-            <h4 class="uk-text-large team-member-title">Donna McIntosh</h4>
-            <br />
-            <h6 class="team-member-subtitle">Marketing Director</h6>
-          </div>
-
-          <div class="team-member">
-            <g-image
-              src="~/assets/images/cca-logo.png"
-              alt="Managing Director"
-              title="Managing Director"
-            />
-            <h4 class="uk-text-large team-member-title">Keith Ashby</h4>
-            <h6 class="team-member-subtitle">Director</h6>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="divider">
-      <div>Come in today and find out about our programs.</div>
+    <div class="divider-container">
+      <g-image src="~/assets/images/coding-divider.jpeg" />
+      <div class="background"></div>
+      <div class="text">Come in today and find out about our programs.</div>
     </div>
 
     <section>
@@ -253,17 +178,17 @@
 </template>
 
 <script>
-
-
 export default {
   metaInfo: {
     title: "Home",
+  },
+  components: {
+    Team: () => import("~/components/Team.vue"),
   },
 };
 </script>
 
 <style>
-
 * {
   padding: 0;
   margin: 0;
@@ -272,8 +197,19 @@ export default {
   list-style: none;
 }
 
+
+.section-team-h2 {
+  color: #6e2b62;
+  margin-bottom: 42px;
+  text-align: center;
+}
+
 .home-links a {
   margin-right: 1rem;
+}
+
+.section-slider {
+  height: 100vh;
 }
 
 /*Service*/
@@ -395,24 +331,39 @@ export default {
 }
 
 /*Divider*/
-.divider {
+
+.divider-container {
   min-height: 240px;
   width: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url("/assets/images/coding-divider.jpeg");
-  background-size: cover;
-  background-color: #6e2b62;
-  mix-blend-mode: multiply;
-  transform-origin: center center;
+  position: relative;
 }
 
-.divider div {
+.divider-container .text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   color: #fff;
+  top: 50%;
+  left: 50%;
   font-weight: bold;
   font-size: 36px;
+  transform: translate(-25%, -10%);
+}
+
+.banner-container .background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-color: #cd8428;
+}
+
+.divider-container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center;
+  object-fit: cover;
 }
 
 /*Patners*/
@@ -430,8 +381,15 @@ export default {
   display: grid;
 }
 
+.partner {
+  color: #6e2b62;
+  justify-content: center;
+  align-items: center;
+}
+
 .partner p {
   text-align: center;
+  margin-top: 20px;
 }
 
 .partner-icon {
@@ -442,12 +400,6 @@ export default {
 .partner-icon a,
 .partner-icon img {
   display: inline-block;
-}
-
-.partner {
-  color: #6e2b62;
-  justify-content: center;
-  align-items: center;
 }
 
 .section-partners h2 {
@@ -583,5 +535,12 @@ export default {
   height: 100vh;
   padding: 32px;
   color: #7e1566;
+}
+
+@media only screen and (max-width: 992px) {
+  .h-service-text,
+  .h-service-text-inverse {
+    width: 512px;
+  }
 }
 </style>

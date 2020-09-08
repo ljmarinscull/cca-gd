@@ -1,7 +1,7 @@
 <template>
   <div class="banner-container">
     <g-image src="~/assets/images/code.jpg" />
-    <div class="back"></div>
+    <div class="background"></div>
     <div class="text">{{title}}</div>
   </div>
 </template>
@@ -36,7 +36,7 @@ export default {
   text-transform: uppercase;
 }
 
-.banner-container .back {
+.banner-container .background {
   position: absolute;
   width: 100%;
   height: 100%;

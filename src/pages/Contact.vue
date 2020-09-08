@@ -86,6 +86,7 @@ export default {
 
 .contact-form {
   width: 512px;
+  padding: 16px;
 }
 
 .contact-form > div {
