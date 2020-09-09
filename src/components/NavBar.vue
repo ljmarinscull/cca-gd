@@ -1,12 +1,13 @@
 <template>
   <nav>
     <div class="logo-container">
-      <g-image
-        src="~/assets/images/cca-logo.png"
-        alt="CCA logo"
-        title="Caribbean Coding Academy - Grenada"
-      />
-
+      <g-link to="/">
+        <g-image
+          src="~/assets/images/cca-logo.png"
+          alt="CCA logo"
+          title="Caribbean Coding Academy - Grenada"
+        />
+      </g-link>
       <div class="logo-text">
         <div>
           <h1 class="logo-text">Caribbean Coding Academy</h1>
@@ -40,7 +41,6 @@
 </template>
 
 <style>
-
 h1 {
   margin: 0;
   font-size: 18px;

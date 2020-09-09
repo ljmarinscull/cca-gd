@@ -1,13 +1,14 @@
 <template>
    <footer>
-    <div class="footer-container">
+   <div class="footer-container">
       <div>
         <g-link href="https://www.facebook.com/caribbeancodingacademy" uk-icon="facebook"/>
         <g-link href="https://www.youtube.com/channel/UC07krghGZtvqmWsabwLQGfw" uk-icon="youtube" />
       </div>
-      <div>All rights reserved © Caribbean Coding Academy - Grenada</div>
-    </div>
+      <div>All rights reserved © 2020 Caribbean Coding Academy Grenada</div>
+    </div> 
   </footer>
+
 </template>
 
 <style>
