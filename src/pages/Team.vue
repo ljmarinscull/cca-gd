@@ -63,13 +63,12 @@
         <br />
         <br />
       </div>
-      <Team />
     </section>
+    <Team />
   </Layout>
 </template>
 
 <script>
-
 export default {
   components: {
     Banner: () => import("~/components/Banner.vue"),
@@ -84,6 +83,6 @@ export default {
 <style>
 .who-we-are-container {
   padding: 32px;
-  color: #5B0D49;
+  color: #5b0d49;
 }
 </style>
