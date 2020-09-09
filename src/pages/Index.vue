@@ -481,16 +481,6 @@ export default {
   text-align: center;
 }
 
-/**************/
-/**Who we are**/
-/**************/
-
-.who-we-are-container {
-  height: 100vh;
-  padding: 32px;
-  color: #7e1566;
-}
-
 @media only screen and (max-width: 992px) {
   .h-service-text,
   .h-service-text-inverse {
