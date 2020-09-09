@@ -78,15 +78,7 @@
 </template>
 
 <style>
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-}
-    
-/*Team*/
+
 .section-team {
   text-align: center;
   margin: auto;

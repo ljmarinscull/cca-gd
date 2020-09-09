@@ -1,6 +1,8 @@
 <template>
   <Layout>
+
     <banner title="CONTACT US" />
+
     <div class="contact-container">
       <div class="contact-form">
         <div>GET IN TOUCH WITH US!</div>
@@ -9,22 +11,22 @@
             <fieldset class="uk-fieldset">
               <div class="uk-margin">
                 <label class="uk-form-label" for="form-stacked-text">Full name</label>
-                <input class="uk-input" type="text" name="name" placeholder="Full name" />
+                <input class="uk-input" type="text" name="name" placeholder="Enter your full name" />
               </div>
 
               <div class="uk-margin">
                 <label class="uk-form-label" for="form-stacked-text">Email</label>
-                <input class="uk-input" type="email" name="email" placeholder="Email" />
+                <input class="uk-input" type="email" name="email" placeholder="Enter your email address" />
               </div>
 
               <div class="uk-margin">
                 <label class="uk-form-label" for="form-stacked-text">Phone</label>
-                <input class="uk-input" type="tel" name="tel" placeholder="Email" />
+                <input class="uk-input" type="tel" name="tel" placeholder="Enter your phone number" />
               </div>
 
               <div class="uk-margin">
                 <label class="uk-form-label" for="form-stacked-text">Your message</label>
-                <textarea class="uk-textarea" rows="5" name="message" placeholder="Your message"></textarea>
+                <textarea class="uk-textarea" rows="5" name="message" placeholder="Enter your message"></textarea>
               </div>
 
               <button class="uk-button uk-button-default" disabled>Submit</button>
@@ -43,7 +45,7 @@
         <br />(473) 456 -1568
         <br />
         <br />
-        <strong>Business Hours</strong>
+        <strong>Business hours</strong>
         <br />Monday to Friday <br /> 8am - 6:30pm EST
       </div>
     </div>
@@ -65,6 +67,7 @@ export default {
 
 
 <style>
+
 .google-map {
   width: 100%;
   height: 45vh;
@@ -103,8 +106,9 @@ export default {
 
 .contact-details {
   width: 256px;
-  padding-left: 16px;
+   padding: 16px;
 }
+
 .contact-f {
   padding-right: 16px;
 }

@@ -1,43 +1,6 @@
 <template>
   <Layout>
-    <header class="section-slider">
-      <div
-        class="uk-position-relative uk-visible-toggle uk-light"
-        tabindex="-1"
-        uk-slideshow="autoplay: true;"
-      >
-        <ul class="uk-slideshow-items" uk-height-viewport>
-          <li>
-            <g-image src="~/assets/images/slider-1.png" alt uk-cover />
-            <div
-              class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom"
-            >
-              <h2>Come check out the game we made at our summer camp</h2>
-            </div>
-          </li>
-          <li>
-            <g-image src="~/assets/images/slider-2.png" alt uk-cover />
-          </li>
-          <li>
-            <g-image src="~/assets/images/slider-3.png" alt uk-cover />
-          </li>
-        </ul>
-
-        <g-link
-          class="uk-position-center-left uk-position-small uk-hidden-hover"
-          href="#"
-          uk-slidenav-previous
-          uk-slideshow-item="previous"
-        />
-        <g-link
-          class="uk-position-center-right uk-position-small uk-hidden-hover"
-          href="#"
-          uk-slidenav-next
-          uk-slideshow-item="next"
-        />
-      </div>
-    </header>
-
+    <SliderShow />
     <section>
       <div class="section-services">
         <h2>Our services</h2>
@@ -131,13 +94,13 @@
           <div class="partner">
             <div class="partner-icon">
               <g-link href="https://www.brazengroup.com" target="_blank">
-                <g-image
-                  src="~/assets/images/patner1.jpg"
+                <img
+                  src="../assets/images/patner1.jpg"
                   width="200"
                   height="200"
                   alt="Brazen Group"
                   title="Brazen Group"
-                />
+                >
               </g-link>
             </div>
             <p>
@@ -184,20 +147,12 @@ export default {
   },
   components: {
     Team: () => import("~/components/Team.vue"),
+    SliderShow: () => import("~/components/SliderShow.vue"),
   },
 };
 </script>
 
 <style>
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-}
-
-
 .section-team-h2 {
   color: #6e2b62;
   margin-bottom: 42px;
@@ -340,21 +295,20 @@ export default {
 
 .divider-container .text {
   position: absolute;
-  width: 100%;
-  height: 100%;
   color: #fff;
   top: 50%;
   left: 50%;
   font-weight: bold;
+  text-align: center;
   font-size: 36px;
-  transform: translate(-25%, -10%);
+  transform: translate(-50%, -50%);
 }
 
 .banner-container .background {
   position: absolute;
   width: 100%;
   height: 100%;
-  opacity: 0.6;
+  opacity: 1;
   background-color: #cd8428;
 }
 
@@ -543,4 +497,12 @@ export default {
     width: 512px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .divider-container .text{
+     font-size: 22px;     
+  }
+}
+
+
 </style>

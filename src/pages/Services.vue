@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <banner title="our services" />
-    <div class="h-service-container">
+     <div class="h-service-container">
       <div class="h-service">
         <div class="h-service-icon">
           <div class="h-service-icon-circle">
@@ -73,7 +73,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> 
   </Layout>
 </template>
 
@@ -89,19 +89,15 @@ export default {
 </script>
 
 <style>
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-}
+
 .h-service-container {
   width: 100%;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .h-service {
@@ -185,7 +181,7 @@ export default {
 .h-service-icon-circle-inverse {
   width: 180px;
   height: 180px;
-  background-color: purple;
+  background-color: #5B0D49;
   border-radius: 50%;
   display: flex;
   justify-content: center;

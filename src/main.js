@@ -5,6 +5,7 @@ import Icons from 'uikit/dist/js/uikit-icons'
 UIkit.use(Icons)
 
 import "uikit/dist/css/uikit.min.css";
+import "../static/main.css"
 
 import DefaultLayout from '~/layouts/Default.vue'
 
