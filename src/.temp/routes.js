@@ -1,9 +1,9 @@
-const c1 = () => import(/* webpackChunkName: "page--src--pages--team-vue" */ "/home/ljmarin/Documents/cca/cca-grenada/src/pages/Team.vue")
-const c2 = () => import(/* webpackChunkName: "page--src--pages--services-vue" */ "/home/ljmarin/Documents/cca/cca-grenada/src/pages/Services.vue")
-const c3 = () => import(/* webpackChunkName: "page--src--pages--projects-vue" */ "/home/ljmarin/Documents/cca/cca-grenada/src/pages/Projects.vue")
-const c4 = () => import(/* webpackChunkName: "page--src--pages--contact-vue" */ "/home/ljmarin/Documents/cca/cca-grenada/src/pages/Contact.vue")
-const c5 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/home/ljmarin/Documents/cca/cca-grenada/node_modules/gridsome/app/pages/404.vue")
-const c6 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/ljmarin/Documents/cca/cca-grenada/src/pages/Index.vue")
+const c1 = () => import(/* webpackChunkName: "page--src--pages--team-vue" */ "/home/ljmarin/Documents/cca-gd/src/pages/Team.vue")
+const c2 = () => import(/* webpackChunkName: "page--src--pages--services-vue" */ "/home/ljmarin/Documents/cca-gd/src/pages/Services.vue")
+const c3 = () => import(/* webpackChunkName: "page--src--pages--projects-vue" */ "/home/ljmarin/Documents/cca-gd/src/pages/Projects.vue")
+const c4 = () => import(/* webpackChunkName: "page--src--pages--contact-vue" */ "/home/ljmarin/Documents/cca-gd/src/pages/Contact.vue")
+const c5 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/home/ljmarin/Documents/cca-gd/node_modules/gridsome/app/pages/404.vue")
+const c6 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/ljmarin/Documents/cca-gd/src/pages/Index.vue")
 
 export default [
   {

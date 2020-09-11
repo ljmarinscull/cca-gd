@@ -80,7 +80,7 @@ nav .logo-container img {
 nav {
   height: 72px;
   width: 100%;
-  position: sticky;
+  position: fixed;
   background-color: #fff;
   top: 0;
   -webkit-box-shadow: 0 2px 4px 0 #111;
@@ -135,21 +135,15 @@ nav .links .link a {
   align-items: center;
 }
 
-nav .links .link a.active,
-nav .links .link a.active:hover {
+nav .links .link a.active--exact,
+nav .links .link a.active--exact:hover {
   background-color: #0472be;
   color: #fff;
   transition: 0.5s;
 }
 
-nav .links .link a:hover {
-  color: #fff;
-}
-
-nav .links .link a:hover {
-  background: #1b9bff;
-  color: #fff;
-  transition: 0.5s;
+nav .links .link a:hover{
+   color: #fff;
 }
 
 .checkbtn {
