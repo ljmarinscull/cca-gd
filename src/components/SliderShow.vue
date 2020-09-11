@@ -1,5 +1,5 @@
 <template>
-  <header class="section-slider">
+  <section class="section-slider">
     <div
       class="uk-position-relative uk-visible-toggle uk-light"
       tabindex="-1"
@@ -35,7 +35,7 @@
         uk-slideshow-item="next"
       />
     </div>
-  </header>
+  </section>
 </template>
 
 <style>

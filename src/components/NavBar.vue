@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <header>
     <div class="logo-container">
       <g-link to="/">
         <g-image
@@ -16,28 +16,30 @@
       </div>
     </div>
 
-    <div class="links">
-      <div class="link">
-        <g-link to="/">home</g-link>
+    <nav>
+      <div class="links">
+        <div class="link">
+          <g-link to="/">home</g-link>
+        </div>
+        <div class="link">
+          <g-link to="/projects">projects</g-link>
+        </div>
+        <div class="link">
+          <g-link to="/team">team</g-link>
+        </div>
+        <div class="link">
+          <g-link to="/services">services</g-link>
+        </div>
+        <div class="link">
+          <g-link to="/contact">contact</g-link>
+        </div>
       </div>
-      <div class="link">
-        <g-link to="/projects">projects</g-link>
-      </div>
-      <div class="link">
-        <g-link to="/team">team</g-link>
-      </div>
-      <div class="link">
-        <g-link to="/services">services</g-link>
-      </div>
-      <div class="link">
-        <g-link to="/contact">contact</g-link>
-      </div>
-    </div>
 
-    <label for="check" class="checkbtn">
-      <span uk-icon="icon: menu; ratio: 2" uk-toggle="target: .links; cls: links-visibility"></span>
-    </label>
-  </nav>
+      <label for="check" class="checkbtn">
+        <span uk-icon="icon: menu; ratio: 2" uk-toggle="target: .links; cls: links-visibility"></span>
+      </label>
+    </nav>
+  </header>
 </template>
 
 <style>
@@ -61,24 +63,14 @@ h1 {
   font-size: 30px;
   color: white;
   float: right;
-  line-height: 72px;
+  line-height: 80px;
   margin-right: 16px;
   cursor: pointer;
   display: none;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-}
-
-nav .logo-container img {
-  height: 72px;
-  width: 72px;
-}
-
-nav {
-  height: 72px;
+header{
+  height: 80px;
   width: 100%;
   position: fixed;
   background-color: #fff;
@@ -91,6 +83,16 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  height: 80px;
+  width: 80px;
 }
 
 label .logo {
@@ -110,12 +112,12 @@ label .logo {
 .link {
   display: inline-block;
   width: 128px;
-  height: 72px;
+  height: 80px;
   text-transform: uppercase;
   color: #6e2b62;
   cursor: pointer;
   text-align: center;
-  line-height: 72px;
+  line-height: 80px;
 }
 
 .link:hover {
@@ -142,8 +144,8 @@ nav .links .link a.active--exact:hover {
   transition: 0.5s;
 }
 
-nav .links .link a:hover{
-   color: #fff;
+nav .links .link a:hover {
+  color: #fff;
 }
 
 .checkbtn {
@@ -156,11 +158,9 @@ nav .links .link a:hover{
   display: none;
 }
 
-.logo-container img {
-  width: 64px;
-  height: 64px;
+.links-visibility {
+  left: 0 !important;
 }
-
 /* Medium devices (landscape tablets, 992px and down) */
 @media only screen and (max-width: 992px) {
   .checkbtn {
@@ -176,11 +176,6 @@ nav .links .link a:hover{
     width: 100%;
   }
 
-  nav .links .link:hover {
-    background-color: #1b9bff;
-    color: #fff;
-  }
-
   nav .links .link a {
     width: 100%;
   }
@@ -191,13 +186,10 @@ nav .links .link a:hover{
     width: 100%;
     height: 100vh;
     background: #fff;
-    top: 72px;
+    top: 80px;
     left: -100%;
     text-align: center;
     transition: all 0.5s;
-  }
-  .contact-details {
-    width: 512px;
   }
 }
 </style>
