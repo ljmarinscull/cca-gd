@@ -82,7 +82,7 @@
     <Team />
 
     <div class="divider-container">
-      <g-image src="~/assets/images/coding-divider.jpeg" />
+      <g-image src="~/assets/images/coding-divider.webp" />
       <div class="background"></div>
       <div class="text">Come in today and find out about our programs.</div>
     </div>
@@ -95,7 +95,7 @@
             <div class="partner-icon">
               <g-link href="https://www.brazengroup.com" target="_blank">
                 <img
-                  src="../assets/images/patner1.jpg"
+                  src="../assets/images/patner1.webp"
                   width="200"
                   height="200"
                   alt="Brazen Group"

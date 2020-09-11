@@ -7,7 +7,7 @@
     >
       <ul class="uk-slideshow-items slider-container">
         <li>
-          <g-image src="~/assets/images/slider-1.png" alt uk-cover />
+          <g-image src="~/assets/images/slider-1.webp" alt uk-cover />
           <div
             class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom"
           >
@@ -15,10 +15,10 @@
           </div>
         </li>
         <li>
-          <g-image src="~/assets/images/slider-2.png" alt uk-cover />
+          <g-image src="~/assets/images/slider-2.webp" alt uk-cover />
         </li>
         <li>
-          <g-image src="~/assets/images/slider-3.png" alt uk-cover />
+          <g-image src="~/assets/images/slider-3.webp" alt uk-cover />
         </li>
       </ul>
 

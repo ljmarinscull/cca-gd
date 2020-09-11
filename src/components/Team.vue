@@ -4,7 +4,7 @@
         <div class="team-members-container">
           <div class="team-member">
             <g-image
-              src="~/assets/images/clifford.jpg"
+              src="~/assets/images/clifford.webp"
               alt="Managing Director"
               title="Managing Director"
             />
@@ -14,7 +14,7 @@
 
           <div class="team-member">
             <g-image
-              src="~/assets/images/carlos-gittens.jpg"
+              src="~/assets/images/carlos-gittens.webp"
               alt="Managing Director"
               title="Managing Director"
             />
@@ -24,7 +24,7 @@
 
           <div class="team-member">
             <g-image
-              src="~/assets/images/gillian_stephen.jpg"
+              src="~/assets/images/gillian_stephen.webp"
               alt="Managing Director"
               title="Managing Director"
             />
@@ -34,7 +34,7 @@
 
           <div class="team-member">
             <g-image
-              src="~/assets/images/whitney-griffith.jpg"
+              src="~/assets/images/whitney-griffith.webp"
               alt="Managing Director"
               title="Managing Director"
             />
@@ -44,7 +44,7 @@
 
           <div class="team-member">
             <g-image
-              src="~/assets/images/dr-mathew.jpg"
+              src="~/assets/images/dr-mathew.webp"
               alt="Managing Director"
               title="Managing Director"
             />
@@ -54,7 +54,7 @@
 
           <div class="team-member">
             <g-image
-              src="~/assets/images/donna-mcIntosh.jpeg"
+              src="~/assets/images/donna-mcIntosh.webp"
               alt="Managing Director"
               title="Managing Director"
             />
@@ -65,7 +65,7 @@
 
           <div class="team-member">
             <g-image
-              src="~/assets/images/cca-logo.png"
+              src="~/assets/images/cca-logo.webp"
               alt="Managing Director"
               title="Managing Director"
             />

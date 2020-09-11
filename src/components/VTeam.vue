@@ -66,7 +66,7 @@
 
           <div class="team-member">
             <g-image
-              src="~/assets/images/cca-logo.png"
+              src="~/assets/images/cca-logo.webp"
               alt="Managing Director"
               title="Managing Director"
             />

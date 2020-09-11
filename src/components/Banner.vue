@@ -1,6 +1,6 @@
 <template>
   <div class="banner-container">
-    <g-image src="~/assets/images/code.jpg" />
+    <g-image src="~/assets/images/code.webp" />
     <div class="background"></div>
     <div class="text">{{title}}</div>
   </div>

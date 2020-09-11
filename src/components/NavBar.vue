@@ -3,7 +3,7 @@
     <div class="logo-container">
       <g-link to="/">
         <g-image
-          src="~/assets/images/cca-logo.png"
+          src="~/assets/images/cca-logo.webp"
           alt="CCA logo"
           title="Caribbean Coding Academy - Grenada"
         />
