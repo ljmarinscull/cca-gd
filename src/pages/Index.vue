@@ -398,10 +398,6 @@ export default {
   margin-bottom: 16px;
 }
 
-.links-visibility {
-  left: 0 !important;
-}
-
 /***********/
 /*PROJECTS*/
 /**********/
