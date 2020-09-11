@@ -82,7 +82,7 @@
     <Team />
 
     <div class="divider-container">
-      <g-image src="~/assets/images/coding-divider.webp" />
+      <g-image src="~/assets/images/coding-divider.webp" alt="Come in today and find out about our programs"/>
       <div class="background"></div>
       <div class="text">Come in today and find out about our programs.</div>
     </div>
