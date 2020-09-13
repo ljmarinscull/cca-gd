@@ -78,7 +78,7 @@
       <hr class="uk-divider-icon" />
     </div>
 
-    <h2 class="section-team-h2 ">Meet the team</h2>
+    <h2 class="section-team-h2">Meet the team</h2>
     <Team />
 
     <div class="divider-container">
@@ -100,7 +100,7 @@
                   height="200"
                   alt="Brazen Group"
                   title="Brazen Group"
-                >
+                />
               </g-link>
             </div>
             <p>
@@ -120,15 +120,37 @@
           <form class="uk-width-3-4@s uk-width-1-2@m">
             <fieldset class="uk-fieldset">
               <div class="uk-margin">
-                <input class="uk-input" type="text" name="name" placeholder="Fullname" />
+                <label for="fullname">Fullname </label>
+                  <input
+                    class="uk-input"
+                    type="text"
+                    name="name"
+                    id="fullname"
+                    placeholder="Enter your full name"
+                  />
+               
               </div>
 
               <div class="uk-margin">
-                <input class="uk-input" type="email" name="email" placeholder="Email" />
+                <label for="email">Email</label>
+                  <input
+                    class="uk-input"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your email address"
+                  />
               </div>
 
               <div class="uk-margin">
-                <textarea class="uk-textarea" rows="5" name="message" placeholder="Your message"></textarea>
+                <label for="message">Message</label>
+                  <textarea
+                    class="uk-textarea"
+                    rows="5"
+                    name="message"
+                    id="message"
+                    placeholder="Enter your message"
+                  ></textarea>
               </div>
 
               <button class="uk-button uk-button-default" disabled>Submit</button>
@@ -375,6 +397,9 @@ export default {
   color: #fff;
   margin-bottom: 32px;
 }
+label{
+  color: #fff;
+}
 
 .contact {
   width: 100%;
@@ -485,10 +510,8 @@ export default {
 }
 
 @media only screen and (max-width: 600px) {
-  .divider-container .text{
-     font-size: 22px;     
+  .divider-container .text {
+    font-size: 22px;
   }
 }
-
-
 </style>
