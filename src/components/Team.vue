@@ -9,68 +9,67 @@
               title="Managing Director"
             />
             <h4 class="uk-text-large team-member-title">Clifford Browner</h4>
-            <h6 class="team-member-subtitle">Managing Director</h6>
+            <h5 class="team-member-subtitle">Managing Director</h5>
           </div>
 
           <div class="team-member">
             <g-image
               src="~/assets/images/carlos-gittens.webp"
-              alt="Managing Director"
-              title="Managing Director"
+              alt="Academic Director"
+              title="Academic Director"
             />
             <h4 class="uk-text-large team-member-title">Carlos Gittens</h4>
-            <h6 class="team-member-subtitle">Academic Director</h6>
+            <h5 class="team-member-subtitle">Academic Director</h5>
           </div>
 
           <div class="team-member">
             <g-image
               src="~/assets/images/gillian_stephen.webp"
-              alt="Managing Director"
-              title="Managing Director"
+              alt="Operations Manager"
+              title="Operations Manager"
             />
             <h4 class="uk-text-large team-member-title">Gillian Stephen</h4>
-            <h6 class="team-member-subtitle">Operations Manager</h6>
+            <h5 class="team-member-subtitle">Operations Manager</h5>
           </div>
 
           <div class="team-member">
             <g-image
               src="~/assets/images/whitney-griffith.webp"
-              alt="Managing Director"
-              title="Managing Director"
+              alt="International Business Relation"
+              title="International Business Relation"
             />
             <h4 class="uk-text-large team-member-title">Whitney Griffith</h4>
-            <h6 class="team-member-subtitle">International Business Relation</h6>
+            <h5 class="team-member-subtitle">International Business Relation</h5>
           </div>
 
           <div class="team-member">
             <g-image
               src="~/assets/images/dr-mathew.webp"
-              alt="Managing Director"
-              title="Managing Director"
+              alt="Academic Director"
+              title="Academic Director"
             />
             <h4 class="uk-text-large team-member-title">George Matthew</h4>
-            <h6 class="team-member-subtitle">Academic Director</h6>
+            <h5 class="team-member-subtitle">Academic Director</h5>
           </div>
 
           <div class="team-member">
             <g-image
               src="~/assets/images/donna-mcIntosh.webp"
-              alt="Managing Director"
-              title="Managing Director"
+              alt="Marketing Director"
+              title="Marketing Director"
             />
             <h4 class="uk-text-large team-member-title">Donna McIntosh</h4>
-            <br />
-            <h6 class="team-member-subtitle">Marketing Director</h6>
+            <h5 class="team-member-subtitle">Marketing Director</h5>
           </div>
 
           <div class="team-member">
             <g-image
               src="~/assets/images/cca-logo.webp"
-              alt="Managing Director"
-              title="Managing Director"
+              alt="Director"
+              title="Director"
             />
             <h4 class="uk-text-large team-member-title">Keith Ashby</h4>
-            <h6 class="team-member-subtitle">Director</h6>
+            <h5 class="team-member-subtitle">Director</h5>
           </div>
         </div>
       </div>
@@ -132,7 +131,7 @@
 }
 
 .team-member h4,
-.team-member h6 {
+.team-member h5 {
   margin: 0;
 }
 
