@@ -169,7 +169,6 @@ nav .links .link a:hover {
 
   .link {
     display: flex;
-    margin: 28px 0;
     line-height: 30px;
     justify-content: center;
     align-items: center;
